@@ -2,6 +2,7 @@
   width: 100px;
 }
 
-#numbers {
-  display: none;
+.well{
+  width: 500px;
+background-color:#ededed;
 }
