@@ -1,6 +1,8 @@
 
-var phrases = ["Beep!", "Boop!", "I'm sorry, Dave. I'm afraid I can't do that."]
-var number =
+var phrases = ["Beep!", "Boop!", "I'm sorry, Dave. I'm afraid I can't do that."];
+var n = "";
+var digits = ("").split("");
+
 
 
 
@@ -8,7 +10,7 @@ var number =
 
 
 $(document).ready(function() {
-  $("#beep-boop form").submit(function(event) {
+  $("#beep-boop").submit(function(event) {
 
 event.preventDefault();
   });
