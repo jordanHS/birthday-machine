@@ -1,7 +1,8 @@
 
 var phrases = ["Beep!", "Boop!", "I'm sorry, Dave. I'm afraid I can't do that."];
-var n = "";
-var digits = ("").split("");
+for (var index = 0;  index == $("#userInput"); index += 1);
+
+
 
 
 
