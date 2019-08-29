@@ -6,11 +6,17 @@ Beep Boop
 
 ## Description
 
-An application that counts up to a number that the user inputted and replaces any numbers containing 1, 2 & 3 with phrases.
+This application displays a number count up to an inputted number with a few exceptions.
 
+1. Any number containing one is replaced with the phrase "Beep!"
+2. Any number containing two is replaced with the phrase "Boop!"
+3. Any number containing three is a with a sentence saying "I'm sorry, Dave I'm afraid O can't do that."
+4. The higher numbers have priority. ie, 12 is replaced with "Boop" and 32 is replaced with "I'm sorry, Dave..."
 ## Setup/Installation requirements
 
 * Click HTML file to open in browser.
+* Enter any number.
+* Click submit button to generate sequence.
 
 ## Known Bugs
 
