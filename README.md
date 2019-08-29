@@ -20,7 +20,7 @@ This application displays a number count up to an inputted number with a few exc
 
 ## Known Bugs
 
-Number sequence not showing up after submission
+Number sequence not showing up after submission. (fixed)
 
 ## Support and contact details
 
