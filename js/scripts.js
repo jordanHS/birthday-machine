@@ -1,11 +1,10 @@
 $(document).ready(function() {
   $("#beep-boop").submit(function(event) {
-    var name = $("input#name").val();
     var user = $("#userInput").val();
 
     var sentence = function() {
 
-        return ` I'm sorry, ${"input#name"}. I'm afraid I can't do that.``;
+        return " I'm sorry, Dave. I'm afraid I can't do that.";
       }
 
 
@@ -13,23 +12,24 @@ $(document).ready(function() {
 
     for (var i = 0; i <= user; i++) {
 
-      if (i.toString().includes('3')) {
-        list.push(sentence());
+      if (i % 10 === 0 && 1 != 0) {
+        count.push(sentence());
       }
 
-      else if (i.toString().includes('2')) {
-        list.push(" Boop!");
+      else if (i % 5 === 0) {
+        count.push(" Boop!");
       }
-      else if (i.toString().includes('1')) {
-        list.push(" Beep!");
+      else if (i % 3 === 0) {
+        count.push(" Beep!");
       }
       else {
-        list.push(" " + i);
+        count.push(" " + i);
+      console.log(count);
       }
     }
 
 
-    $("#result").show().text(list);
+    $("#result").show().text(count);
     event.preventDefault();
 
   });
