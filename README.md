@@ -1,21 +1,22 @@
-Beep Boop
+# Beep Boop
 
-#### This is a application made be me, August 27 2019
+#### This is a application made be me, November 1, 2019
 
-#### by Jordan Safford
+### by Jordan Safford
 
 ## Description
 
-This application displays a number count up to an inputted number with a few exceptions.
+1. The user enters their name & a number.
+2. The machine creates an empty array and runs a loop.
+3. Starting from zero and increasing by one the loop runs until it reaches the number the user entered.
+4. Any number that is a multiple of ten is replaced with a personalized birthday message.
+5. Any number that is a multiple of 5 is replaced with the phrase "Birthday!"
+6. Any number that is a multiple of 2 is replaced with the phrase "Happy"
 
-1. Any number containing one is replaced with the phrase "Beep!"
-2. Any number containing two is replaced with the phrase "Boop!"
-3. Any number containing three is a with a sentence saying "I'm sorry, Dave I'm afraid O can't do that."
-4. The higher numbers have priority. ie, 12 is replaced with "Boop" and 32 is replaced with "I'm sorry, Dave..."
 ## Setup/Installation requirements
 
 * Click HTML file to open in browser.
-* Enter any number.
+* Enter your name & the number you want the machine to count to.
 * Click submit button to generate sequence.
 
 ## Known Bugs
@@ -28,7 +29,7 @@ Email: jordansafford@gmail.com
 
 ## Technologies Used
 
-HTML 5, CSS, Bootstarp & JavaScript
+HTML 5, CSS, Bootstrap & JavaScript
 
 ### License
 
