@@ -1,6 +1,12 @@
+body {
+  background-color: #a4e68e
+}
 
+.output {
+  background-color: #D08EE6;
+  color: white;
+}
 
-.well{
-  width: 500px;
-background-color:#ededed;
+img {
+  float: left;
 }

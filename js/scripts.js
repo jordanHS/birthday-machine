@@ -11,7 +11,7 @@ $(document).ready(function() {
 
     var count = [];
 
-    for (var i = 1; i <= user; i++) {
+    for (var i = 0; i <= user; i++) {
 
       if (i % 10 === 0) {
         count.push(sentence());
@@ -25,12 +25,11 @@ $(document).ready(function() {
       }
       else {
         count.push(" " + i);
-        console.log(count);
       }
     }
 
 
-    $("#result").show().text(count);
+    $(".output").show().text(count);
     event.preventDefault();
 
   });
