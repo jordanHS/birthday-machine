@@ -1,17 +1,17 @@
 $(document).ready(function() {
   $("#happy-birthday").submit(function(event) {
-    var user = $("#userInput").val();
+    var user = $("input#number").val();
     var name = $("input#name").val();
 
     var sentence = function() {
 
-        return "Happy " + "Birthday, " + name + "!" ;
+        return "Happy Birthday, " + name + "!" ;
       }
 
 
     var count = [];
 
-    for (var i = 0; i <= user; i++) {
+    for (var i = 1; i <= user; i++) {
 
       if (i % 10 === 0) {
         count.push(sentence());
@@ -25,7 +25,7 @@ $(document).ready(function() {
       }
       else {
         count.push(" " + i);
-
+        console.log(count);
       }
     }
 
