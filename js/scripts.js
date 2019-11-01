@@ -1,10 +1,11 @@
 $(document).ready(function() {
-  $("#beep-boop").submit(function(event) {
+  $("#happy-birthday").submit(function(event) {
     var user = $("#userInput").val();
+    var name = $("input#name").val();
 
     var sentence = function() {
 
-        return " I'm sorry, Dave. I'm afraid I can't do that...";
+        return "Happy " + "Birthday, " + name + "!" ;
       }
 
 
@@ -17,20 +18,16 @@ $(document).ready(function() {
       }
 
       else if (i % 5 === 0) {
-        count.push(" Boop!");
+        count.push("Birthday!");
       }
-      else if (i % 3 === 0) {
-        count.push(" Beep!");
+      else if (i % 2 === 0) {
+        count.push("Happy");
       }
       else {
         count.push(" " + i);
 
       }
     }
-
-    var reverseCount = [];
-
-    for (var i = count.length - 1; i >= 0; i--);
 
 
     $("#result").show().text(count);
