@@ -9,4 +9,9 @@ body {
 
 img {
   float: left;
+  border-radius:
+}
+
+.panel {
+  background color: skyblue;
 }

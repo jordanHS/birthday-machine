@@ -8,7 +8,7 @@
 
 1. The user enters their name & a number.
 2. The machine creates an empty array and runs a loop.
-3. Starting from zero and increasing by one the loop runs until it reaches the number the user entered.
+3. Starting from one and increasing by one the loop runs until it reaches the number the user entered.
 4. Any number that is a multiple of ten is replaced with a personalized birthday message.
 5. Any number that is a multiple of 5 is replaced with the phrase "Birthday!"
 6. Any number that is a multiple of 2 is replaced with the phrase "Happy"
@@ -21,7 +21,8 @@
 
 ## Known Bugs
 
-Number sequence not showing up after submission. (fixed)
+<!-- Zero is being counted as a factor of ten, probably due to using the modulus formula. -->
+No known bugs.
 
 ## Support and contact details
 

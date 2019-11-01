@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $("#happy-birthday").submit(function(event) {
-    var user = $("input#number").val();
+    var number = $("input#number").val();
     var name = $("input#name").val();
 
     var sentence = function() {
@@ -11,7 +11,7 @@ $(document).ready(function() {
 
     var count = [];
 
-    for (var i = 0; i <= user; i++) {
+    for (var i = 1; i <= number; i++) {
 
       if (i % 10 === 0) {
         count.push(sentence());
