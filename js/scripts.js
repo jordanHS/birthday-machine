@@ -4,7 +4,7 @@ $(document).ready(function() {
 
     var sentence = function() {
 
-        return " I'm sorry, Dave. I'm afraid I can't do that.";
+        return " I'm sorry, Dave. I'm afraid I can't do that...";
       }
 
 
@@ -12,7 +12,7 @@ $(document).ready(function() {
 
     for (var i = 0; i <= user; i++) {
 
-      if (i % 10 === 0 && 1 != 0) {
+      if (i % 10 === 0) {
         count.push(sentence());
       }
 
@@ -24,9 +24,13 @@ $(document).ready(function() {
       }
       else {
         count.push(" " + i);
-      console.log(count);
+
       }
     }
+
+    var reverseCount = [];
+
+    for (var i = count.length - 1; i >= 0; i--);
 
 
     $("#result").show().text(count);
