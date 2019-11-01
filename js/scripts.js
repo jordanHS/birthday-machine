@@ -1,15 +1,15 @@
 $(document).ready(function() {
   $("#beep-boop").submit(function(event) {
-
+    var name = $("input#name").val();
     var user = $("#userInput").val();
 
     var sentence = function() {
 
-        return " I'm sorry, Dave. I'm afraid I can't do that.";
+        return ` I'm sorry, ${"input#name"}. I'm afraid I can't do that.``;
       }
 
 
-    var list = [];
+    var count = [];
 
     for (var i = 0; i <= user; i++) {
 
