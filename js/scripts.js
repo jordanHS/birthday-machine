@@ -27,12 +27,12 @@ $(document).ready(function() {
         count.push(" " + i);
       }
     }
-
-    var reverseCount = [];
-    count.forEach(function(count) {
-      reverseCount.push(count.reverse());
-      console.log(reverse);
-    });
+  //
+  //   var reverseCount = [];
+  // number.forEach(function(number) {
+  //     reverseCount.push(count.reverse());
+  //     console.log(reverse);
+  //   });
 
     $(".output").show().text(count);
     event.preventDefault();
