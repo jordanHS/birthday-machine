@@ -28,6 +28,11 @@ $(document).ready(function() {
       }
     }
 
+    var reverseCount = [];
+    count.forEach(function(count) {
+      reverseCount.push(count.reverse());
+      console.log(reverse);
+    });
 
     $(".output").show().text(count);
     event.preventDefault();
