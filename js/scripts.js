@@ -13,7 +13,7 @@ $(document).ready(function() {
 
     for (var i = 1; i <= number; i++) {
 
-      if (i % 10 === 0) {
+      if (i.toString().includes('0')) {
         count.push(sentence());
       }
 
@@ -26,6 +26,7 @@ $(document).ready(function() {
       else {
         count.push(" " + i);
       }
+
     }
   //
   //   var reverseCount = [];
