@@ -13,7 +13,7 @@ $(document).ready(function() {
 
     for (var i = 1; i <= number; i++) {
 
-      if (i.toString().includes('0')) {
+      if (i % 10 ===0) {
         count.push(sentence());
       }
 
