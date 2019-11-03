@@ -38,7 +38,7 @@ $(document).ready(function() {
       }
       else
       {
-        alert("That is not a number, please enter a number.")
+        alert("That is not a number, please enter a number.");
         return false;
       }
       }
