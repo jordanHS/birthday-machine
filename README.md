@@ -9,9 +9,12 @@
 1. The user enters their name & a number.
 2. The machine creates an empty array and runs a loop.
 3. Starting from one and increasing by one the loop runs until it reaches the number the user entered.
-4. Any number ending in zero is replaced with a personalized birthday message.
-5. Any number that is a multiple of 5 is replaced with the phrase "Birthday!"
-6. Any number that is a multiple of 2 is replaced with the phrase "Happy"
+4. Each time the loop runs it evaluates the if statements to check if conditions are met
+  a. If the index value contains a zero; the machine pushes a personalized birthday message to the empty array.
+  b. If the index value is evenly divisible by 5 it pushes the phrase "Birthday!" to the empty array.
+  c. If the index value is evenly divisible by 2 it pushes the phrase "Happy" to the empty array.
+  d. If none of those met are it pushes the value of the index to the empty array.
+5. The resulting array is displayed on the screen.
 
 ## Setup/Installation requirements
 
