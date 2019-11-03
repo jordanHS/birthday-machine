@@ -23,9 +23,6 @@ $(document).ready(function() {
       else if (i % 2 === 0) {
         count.push("Happy");
       }
-      else if (i.toString().includes( /^[A-Za-z]+$/)) {
-        alert("Please enter a number");
-      }
       else {
         count.push(" " + i);
       }
