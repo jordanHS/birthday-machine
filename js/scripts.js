@@ -29,15 +29,20 @@ $(document).ready(function() {
 
     }
 
-    function isLetter(number)
+    function isNumber(number)
     {
-      var letters = /^[A-Za-z]+$/;
+      var numbers = /^[1-9]+$/;
       {
-        if(number.value.match(letters))
-        alert("Please enter a number")
+        if(number.value.match(numbers))
         return true;
       }
-    }
+      else
+      {
+        alert("That is not a number, please enter a number.")
+        return false;
+      }
+      }
+
       $(".output").show().text(count);
     event.preventDefault();
 
