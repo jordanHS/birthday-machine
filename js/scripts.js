@@ -23,15 +23,12 @@ $(document).ready(function() {
       else if (i % 2 === 0) {
         count.push("Happy");
       }
-      else if  (i <= 0) {
-        alert("Please enter a number a valid number");
-      }
       else {
         count.push(" " + i);
       }
 
     }
-
+    console.log(count);
 
 
       $(".output").show().text(count);
