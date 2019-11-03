@@ -35,6 +35,7 @@ $(document).ready(function() {
       {
         if(number.value.match(letters))
         alert("Please enter a number")
+        return true;
       }
     }
       $(".output").show().text(count);
