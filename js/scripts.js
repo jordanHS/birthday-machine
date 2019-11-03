@@ -28,8 +28,16 @@ $(document).ready(function() {
       }
 
     }
- 
-    $(".output").show().text(count);
+
+    function isLetter(number)
+    {
+      var letters = /^[A-Za-z]+$/;
+      {
+        if(number.value.match(letters))
+        alert("Please enter a number")
+      }
+    }
+      $(".output").show().text(count);
     event.preventDefault();
 
   });
