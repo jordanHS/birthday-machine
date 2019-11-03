@@ -28,13 +28,7 @@ $(document).ready(function() {
       }
 
     }
-  //
-  //   var reverseCount = [];
-  // number.forEach(function(number) {
-  //     reverseCount.push(count.reverse());
-  //     console.log(reverse);
-  //   });
-
+ 
     $(".output").show().text(count);
     event.preventDefault();
 
