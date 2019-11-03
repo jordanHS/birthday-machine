@@ -23,25 +23,16 @@ $(document).ready(function() {
       else if (i % 2 === 0) {
         count.push("Happy");
       }
+      else if (i.toString().includes( /^[A-Za-z]+$/)) {
+        alert("Please enter a number");
+      }
       else {
         count.push(" " + i);
       }
 
     }
 
-    function isNumber(number)
-    {
-      var numbers = /^[1-9]+$/;
-      {
-        if(number.value.match(numbers))
-        return true;
-      }
-      else
-      {
-        alert("That is not a number, please enter a number.");
-        return false;
-      }
-      }
+
 
       $(".output").show().text(count);
     event.preventDefault();
