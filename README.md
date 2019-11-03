@@ -9,7 +9,7 @@
 1. The user enters their name & a number.
 2. The machine creates an empty array and runs a loop.
 3. Starting from one and increasing by one the loop runs until it reaches the number the user entered.
-4. Any number that is a multiple of ten is replaced with a personalized birthday message.
+4. Any number ending in zero is replaced with a personalized birthday message.
 5. Any number that is a multiple of 5 is replaced with the phrase "Birthday!"
 6. Any number that is a multiple of 2 is replaced with the phrase "Happy"
 
