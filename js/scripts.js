@@ -20,7 +20,7 @@ $(document).ready(function() {
       else if (i % 5 === 0) {
         count.push("Birthday!");
       }
-      else if (i % 2 === 0) {
+      else if (i % 2 !== 0) {
         count.push("Happy");
       }
       else {
