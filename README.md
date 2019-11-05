@@ -12,7 +12,7 @@
 4. Each time the loop runs it evaluates the if statements to check if conditions are met
   * If the index value is evely divisible by 10 the machine pushes a personalized birthday message to the empty array.
   * If the index value is evenly divisible by 5 it pushes the phrase "Birthday!" to the empty array.
-  * If the index value is evenly divisible by 2 it pushes the phrase "Happy" to the empty array.
+  * If the index value is not an even number it pushes the phrase "Happy" to the empty array.
   * If none of those met are it pushes the value of the index to the empty array.
 5. The resulting array is displayed on the screen.
 
