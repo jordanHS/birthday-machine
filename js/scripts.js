@@ -1,9 +1,4 @@
-$(document).ready(function() {
-  $("#happy-birthday").submit(function(event) {
-    var number = $("input#number").val();
-    var name = $("input#name").val();
-
-    var sentence = function() {
+ var sentence = function() {
 
         return "Happy Birthday, " + name + "!" ;
       }
@@ -31,9 +26,13 @@ $(document).ready(function() {
     console.log(count);
 
 
-      $(".output").show().text(count);
+$(document).ready(function() {
+  $("#happy-birthday").submit(function(event) {
     event.preventDefault();
-
+    var number = $("input#number").val();
+    var name = $("input#name").val()
+      $(".output").show().text(count);
+    
   });
 
 
