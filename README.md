@@ -4,17 +4,24 @@
 
 ### by Jordan Safford
 
-## Description
+## Description 
 
-1. The user enters their name & a number.
-2. The machine creates an empty array and runs a loop.
-3. Starting from one and increasing by one the loop runs until it reaches the number the user entered.
-4. Each time the loop runs it evaluates the if statements to check if conditions are met
-  * If the index value is evely divisible by 10 the machine pushes a personalized birthday message to the empty array.
-  * If the index value is evenly divisible by 5 it pushes the phrase "Birthday!" to the empty array.
-  * If the index value is not an even number it pushes the phrase "Happy" to the empty array.
-  * If none of those met are it pushes the value of the index to the empty array.
-5. The resulting array is displayed on the screen.
+A machine that displays a birthday message for the user.
+
+## Specs
+
+1. Any number that is a multiple of 10 is replaced with a personalized birthday message.
+ * Input: 10
+ * Expected output: 1, 2 ,3, 4, 5, 6, 7, 8, 9, Happy Birthday, User!
+2. Any number that is a multiple of 5 is replaced with the phrase "Birthday!"
+ * Input: 10
+ * Expected output: 1, 2, 3, 4, Birthday!, 6, 7, 8, 9, Happy Birthday, User!
+3. Every odd number is replaced with the phrase "Happy"
+ * Input: 10
+ * Expected output: Happy, 2, Happy, 4, Birthday!, 6, Happy, 8, Happy, Happy Birthday, User!
+
+
+
 
 ## Setup/Installation requirements
 
