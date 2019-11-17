@@ -30,7 +30,7 @@ $(document).ready(function() {
   $("#happy-birthday").submit(function(event) {
     event.preventDefault();
     var number = $("input#number").val();
-    var name = $("#name").val();
+     name = $("#name").val();
     var count = BirthdayCount(number);
     $(".output").show().text(count);
     
